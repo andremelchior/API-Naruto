@@ -1,6 +1,3 @@
-//Exercicio: Consumir o endpoint /characters do Dattebayo API 
-//e recuperar a lista de jutsus e a primeira imagem do primeiro personagem
-
 const route = 'characters'
 let ids = []
 
@@ -33,4 +30,3 @@ fetch(`https://dattebayo-api.onrender.com/${route}`, {
     }
 }
 ).catch((error) => console.error(error))
-
